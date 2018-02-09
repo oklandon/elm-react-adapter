@@ -5,8 +5,18 @@ _Inspired by https://github.com/evancz/react-elm-components_
 This allows you to sneak some Elm into your existing React projects with very little pain
 
 ## Example ##
+Webpack config
+```
+...
+  {
+	  test: /\.elm$/,
+	  exclude:[/elm-stuff/, /node_modules/],
+	  use: ["babel-loader", "elm-webpack-loader"]
+  }
+...
+```
 
-Your React component
+React component
 ```
 import React from "react"
 
