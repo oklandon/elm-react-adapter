@@ -25,33 +25,33 @@ import { ElmComponent } from "./Component.elm"
 
 export default class Example extends React.Component {
 
-	state = {
-		color: "blue",
-		label: "ELM"
-	}
+state = {
+	color: "blue",
+	label: "ELM"
+}
 
-	render() {
+render() {
 		return (
 			<div>
-	<Elmo
-		options={this.state}
-		src={ElmComponent}
-		sends={[
-			{
-				portName: "info",
-				payload: {
-					color: this.state.color,
-					label: this.state.label
-				},
-			},
-		]}
-	/>
-	</div>)
+        <Elmo
+          options={this.state}
+          src={ElmComponent}
+          sends={[
+            {
+              portName: "info",
+              payload: {
+                color: this.state.color,
+                label: this.state.label
+              },
+            },
+          ]}
+        />
+    </div>)
 	}
 }
 ```
 
-Your Elm
+Elm
 ```
 port module ElmComponent exposing (..)
 
