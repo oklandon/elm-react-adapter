@@ -1,0 +1,21 @@
+{
+  "name": "elm-react-adaptor",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"no tests here :(\" && exit 1"
+  },
+	"main": "adapter.js",	
+  "repository": {
+		"type": "git",
+		"url": "git +https://github.com/oklandon/elm-react-adapter.git"
+	},
+	"peerDependencies": {
+		"react":">=15.0.0",
+		"elm-webpack-loader": "^4.4.0",
+		"babel-loader": ">=7.1.2"
+	},
+  "author": "Landon Young",
+  "license": "MIT",
+	"keywords": ["elm", "react", "babel"]
+ }
+
