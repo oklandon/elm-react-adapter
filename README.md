@@ -31,8 +31,8 @@ state = {
 }
 
 render() {
-		return (
-			<div>
+  return (
+    <div>
         <Elmo
           options={this.state}
           src={ElmComponent}
