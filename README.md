@@ -1,10 +1,10 @@
-#Elm React Adaptor#
+# Elm React Adaptor #
 
-* Inspired by https://github.com/evancz/react-elm-components *
+_Inspired by https://github.com/evancz/react-elm-components_
 
 This allows you to sneak some Elm into your existing React projects with very little pain
 
-##Example ##
+## Example ##
 
 Your React component
 ```
@@ -36,7 +36,7 @@ export default class Example extends React.Component {
 						},
 					]}
 					/>
-			</div>
+			</div>)
 }
 ```
 
