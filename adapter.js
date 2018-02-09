@@ -9,7 +9,7 @@ export default class Elmo extends React.Component {
 	}
 
 	componentDidUpdate(prevProps, prevState) {
-		if (this.props !== prevProps {
+		if (this.props !== prevProps) {
 			const app = this.props.src.embed(this.node, this.props.flags)
 			this.send(app)
 		}
